@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<ReportFormType>Main</ReportFormType>
+	<AutoShowState>Auto</AutoShowState>
+	<ReportResultViewMode>Auto</ReportResultViewMode>
+	<ViewModeApplicationOnSetReportResult>Auto</ViewModeApplicationOnSetReportResult>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="20">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<Button name="СоздатьКонтрагентаИСобытия" id="5">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СоздатьКонтрагентаИСобытия</CommandName>
+					<ExtendedTooltip name="СоздатьКонтрагентаИСобытияРасширеннаяПодсказка" id="6"/>
+				</Button>
+				<Button name="ФормаСоздатьКонтрагента" id="1">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СоздатьКонтрагента</CommandName>
+					<ExtendedTooltip name="ФормаСоздатьКонтрагентаРасширеннаяПодсказка" id="2"/>
+				</Button>
+				<Button name="СоздатьДокумент" id="3">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СоздатьДокумент</CommandName>
+					<ExtendedTooltip name="СоздатьДокументРасширеннаяПодсказка" id="4"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="22">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<InputField name="СсылкаНаРеализацию" id="15">
+					<DataPath>СсылкаНаРеализацию</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СсылкаНаРеализациюКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="СсылкаНаРеализациюРасширеннаяПодсказка" id="17"/>
+				</InputField>
+				<Button name="УвеличитьНа10" id="18">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.УвеличитьНа10</CommandName>
+					<ExtendedTooltip name="УвеличитьНа10РасширеннаяПодсказка" id="19"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="СотрудникСсылка1" id="10">
+			<DataPath>СотрудникСсылка</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СотрудникСсылка1КонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СотрудникСсылка1РасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Button name="УстановитьПометкуНаУдаления" id="33">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.УстановитьПометкуНаУдаления</CommandName>
+			<ExtendedTooltip name="УстановитьПометкуНаУдаленияРасширеннаяПодсказка" id="34"/>
+		</Button>
+		<Button name="УстановитьОклад" id="13">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.УстановитьОклад</CommandName>
+			<ExtendedTooltip name="УстановитьОкладРасширеннаяПодсказка" id="14"/>
+		</Button>
+		<Button name="УдалитьСотрудника" id="31">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.УдалитьСотрудника</CommandName>
+			<ExtendedTooltip name="УдалитьСотрудникаРасширеннаяПодсказка" id="32"/>
+		</Button>
+		<InputField name="НаименованиеКонтрагента" id="24">
+			<DataPath>НаименованиеКонтрагента</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтрагентаКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="НаименованиеКонтрагентаРасширеннаяПодсказка" id="26"/>
+		</InputField>
+		<Button name="СообщитьИНН" id="27">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СообщитьИНН</CommandName>
+			<ExtendedTooltip name="СообщитьИННРасширеннаяПодсказка" id="28"/>
+		</Button>
+		<Button name="ВыбратьСотрудниковСПустымОкладом" id="29">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыбратьСотрудниковСПустымОкладом</CommandName>
+			<ExtendedTooltip name="ВыбратьСотрудниковСПустымОкладомРасширеннаяПодсказка" id="30"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalReportObject.ИзменениеИСозданиеЭлементов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СотрудникСсылка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СсылкаНаРеализацию" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на реализацию</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.РеализацияТоваровИУслуг</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НаименованиеКонтрагента" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование контрагента</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СоздатьКонтрагента" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать контрагента</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать контрагента</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьКонтрагента</Action>
+		</Command>
+		<Command name="СоздатьДокумент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьДокумент</Action>
+		</Command>
+		<Command name="СоздатьКонтрагентаИСобытия" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать контрагента и события</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать контрагента и события</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьКонтрагентаИСобытия</Action>
+		</Command>
+		<Command name="УстановитьОклад" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить оклад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить оклад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьОклад</Action>
+		</Command>
+		<Command name="УвеличитьНа10" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить на10%</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить на10</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УвеличитьНа10</Action>
+		</Command>
+		<Command name="СообщитьИНН" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщить ИНН</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщить ИНН</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СообщитьИНН</Action>
+		</Command>
+		<Command name="ВыбратьСотрудниковСПустымОкладом" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать сотрудников с пустым окладом</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать сотрудников с пустым окладом</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьСотрудниковСПустымОкладом</Action>
+		</Command>
+		<Command name="УдалитьСотрудника" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить сотрудника</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить сотрудника</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьСотрудника</Action>
+		</Command>
+		<Command name="УстановитьПометкуНаУдаления" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку на удаления</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку на удаления</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьПометкуНаУдаления</Action>
+		</Command>
+	</Commands>
+</Form>

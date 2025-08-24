@@ -3,7 +3,7 @@
 </div>
 
 <div id="badges">
-  <a href="your-linkedin-URL">
+  <a href="https://vk.com/kimdark665">
     <img src="https://img.shields.io/badge/vk-blue?style=for-the-badge&logo=vk&logoColor=white" alt="vk Badge"/>
   </a>
   <a href="your-youtube-URL">

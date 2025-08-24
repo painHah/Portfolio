@@ -7,10 +7,10 @@
     <img src="https://img.shields.io/badge/vk-blue?style=for-the-badge&logo=vk&logoColor=white" alt="vk Badge"/>
   </a>
   <a href="http://painhaven40@gmail.com">
-    <img src="https://img.shields.io/badge/gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail Badge"/>
+    <img src="https://img.shields.io/badge/gmail-green?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail Badge"/>
   </a>
   <a href="https://youtube.com/@muhammad_10_?si=_WEbhcbgh3Nnpzx5">
-    <img src="https://img.shields.io/badge/youtube-blue?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube Badge"/>
+    <img src="https://img.shields.io/badge/youtube-Red?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube Badge"/>
   </a>
 </div>
 

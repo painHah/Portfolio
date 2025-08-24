@@ -12,6 +12,9 @@
   <a href="https://youtube.com/@muhammad_10_?si=_WEbhcbgh3Nnpzx5">
     <img src="https://img.shields.io/badge/youtube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube Badge"/>
   </a>
+   <a href="https://myresume.ru/resume/UiycA8ED9RR/">
+    <img src="https://img.shields.io/badge/Resume-grey?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube Badge"/>
+  </a>
 </div>
 
 

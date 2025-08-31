@@ -33,5 +33,5 @@
 
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=469cd0&text=Thank%20You!!&fontAlignY=40&section=header&descAlign=50&rotate=0&animation=twinkling&fontColor=ffffff">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=469cd0&text=Thank%20You!!&fontAlignY=40&section=header&descAlign=50&rotate=0&animation=twinkling&fontColor=8B0000">
 </div>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="fede0e07-1860-4c3c-91c3-87ebb3b1f8d5">
+		<Name>EMailКонтрагента</Name>
+		<Code>000000005</Code>
+		<Description>EMailКонтрагента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="32a87e83-3a40-46c4-a059-367959f0ce1e">
+		<Name>ПочтовыйАдресКонтрагента</Name>
+		<Code>000000002</Code>
+		<Description>ПочтовыйАдресКонтрагента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="30ba5535-553e-41fc-a775-b550115f99cc">
+		<Name>ТелефонКонтрагента</Name>
+		<Code>000000004</Code>
+		<Description>ТелефонКонтрагента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cbc7a957-9518-4ddc-9532-260315fad857">
+		<Name>ФактическийАдресКонтрагента</Name>
+		<Code>000000003</Code>
+		<Description>ФактическийАдресКонтрагента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e18b5ccd-a2fc-44be-8553-8ecd11766e5e">
+		<Name>ЮридическийАдресКонтрагента</Name>
+		<Code>000000001</Code>
+		<Description>ЮридическийАдресКонтрагента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

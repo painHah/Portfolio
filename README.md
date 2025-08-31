@@ -1,6 +1,6 @@
 <header>
     <div id='Header' align="center">
-<&fontColor=8B0000# Portfolio -
+<Color=8B0000# Portfolio -
  Все проекты по 1С- программированию>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=469cd0&text=👋Hi%20,%20I'm%-OMM&fontAlignY=64&section=footer&descAlign=50&rotate=0&animation=twinkling&fontColor=8B0000&fontAlign=50">

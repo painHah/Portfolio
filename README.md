@@ -1,5 +1,5 @@
 <header>
-    <div id='Header' align="center"&fontColor=8B0000>
+    <div id='Header' align="center">
  Portfolio -
  Все проекты по 1С- программированию
 

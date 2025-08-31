@@ -25,7 +25,7 @@
 
 <header>
     <div id='Header'>
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=469cd0&text=👋Hi%20,%20I'm% Omarov MM &fontAlignY=64&section=footer&descAlign=50&rotate=0&animation=twinkling&fontColor=ffffff&fontAlign=50">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=469cd0&text=👋Hi%20,%20I'm%Omarov MM &fontAlignY=64&section=footer&descAlign=50&rotate=0&animation=twinkling&fontColor=ffffff&fontAlign=50">
     <img src="https://capsule-render.vercel.app/api?type=slice&height=98&color=3b7397&text=A%20developer%20from%20Russia%20and%20learning%20every%20day.%20&fontAlignY=24&section=header&descAlign=50&rotate=0&animation=twinkling&fontColor=ffffff&fontAlign=70&fontSize=19">
     </div>
 </header>

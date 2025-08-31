@@ -1,5 +1,7 @@
+<header>
+    <div id='Header' align="center">
 # Portfolio
-Center Все проекты по 1С- программированию
+Все проекты по 1С- программированию
 
 <header>
     <div id='Header' align="center">

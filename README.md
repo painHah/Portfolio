@@ -33,4 +33,6 @@
 </div>
 
 <br>
-<align="center"> < img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=469cd0&text=Thank%20You!!&fontAlignY=40&section=header&descAlign=50&rotate=0&animation=twinkling&fontColor=ffffff">
+<div id="header" align="center">
+< img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=469cd0&text=Thank%20You!!&fontAlignY=40&section=header&descAlign=50&rotate=0&animation=twinkling&fontColor=ffffff">
+</div>

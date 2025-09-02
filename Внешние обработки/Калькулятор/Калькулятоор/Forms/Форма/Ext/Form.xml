@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Значение" id="1">
+			<DataPath>Значение</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗначениеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Результат" id="4">
+			<DataPath>Результат</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РезультатКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="17">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="18"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="19">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="20"/>
+					<ChildItems>
+						<Button name="Сложить" id="11">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Сложить</CommandName>
+							<ExtendedTooltip name="СложитьРасширеннаяПодсказка" id="12"/>
+						</Button>
+						<Button name="Вычесть" id="9">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Вычесть</CommandName>
+							<ExtendedTooltip name="ВычестьРасширеннаяПодсказка" id="10"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="21">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="22"/>
+					<ChildItems>
+						<Button name="Разделить" id="13">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Разделить</CommandName>
+							<ExtendedTooltip name="РазделитьРасширеннаяПодсказка" id="14"/>
+						</Button>
+						<Button name="Умножить" id="15">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Умножить</CommandName>
+							<ExtendedTooltip name="УмножитьРасширеннаяПодсказка" id="16"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="ФормаОбменятьЗначениеРезультат" id="26">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОбменятьЗначениеРезультат</CommandName>
+			<ExtendedTooltip name="ФормаОбменятьЗначениеРезультатРасширеннаяПодсказка" id="27"/>
+		</Button>
+		<UsualGroup name="Группа4" id="40">
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="Память" id="23">
+					<DataPath>Память</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПамятьКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ПамятьРасширеннаяПодсказка" id="25"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="ФормаДобавитьРезультатКПамяти" id="30">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ДобавитьРезультатКПамяти</CommandName>
+			<ExtendedTooltip name="ФормаДобавитьРезультатКПамятиРасширеннаяПодсказка" id="31"/>
+		</Button>
+		<Button name="ФормаВычестьРезультатИзПамяти" id="28">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВычестьРезультатИзПамяти</CommandName>
+			<ExtendedTooltip name="ФормаВычестьРезультатИзПамятиРасширеннаяПодсказка" id="29"/>
+		</Button>
+		<Button name="ФормаПамятьВЗначение" id="36">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПамятьВЗначение</CommandName>
+			<ExtendedTooltip name="ФормаПамятьВЗначениеРасширеннаяПодсказка" id="37"/>
+		</Button>
+		<Button name="ФормаОчиститьПамять" id="34">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОчиститьПамять</CommandName>
+			<ExtendedTooltip name="ФормаОчиститьПамятьРасширеннаяПодсказка" id="35"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Калькулятор</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Значение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Результат" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Память" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Память</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>25</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сложить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сложить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сложить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сложить</Action>
+		</Command>
+		<Command name="Вычесть" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычесть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычесть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вычесть</Action>
+		</Command>
+		<Command name="Разделить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разделить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разделить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Разделить</Action>
+		</Command>
+		<Command name="Умножить" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Умножить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Умножить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Умножить</Action>
+		</Command>
+		<Command name="ОбменятьЗначениеРезультат" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение &lt;-&gt; Результат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обменять значение результат</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбменятьЗначениеРезультат</Action>
+		</Command>
+		<Command name="ДобавитьРезультатКПамяти" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Память+</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить результат к памяти</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьРезультатКПамяти</Action>
+		</Command>
+		<Command name="ВычестьРезультатИзПамяти" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Память-</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычесть результат из памяти</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВычестьРезультатИзПамяти</Action>
+		</Command>
+		<Command name="ОчиститьПамять" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Память Х</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить память</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьПамять</Action>
+		</Command>
+		<Command name="ПамятьВЗначение" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Память -&gt; Значение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Память в значение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПамятьВЗначение</Action>
+		</Command>
+	</Commands>
+</Form>
